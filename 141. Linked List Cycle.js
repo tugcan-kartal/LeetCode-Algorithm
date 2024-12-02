@@ -11,7 +11,7 @@
  * @return {boolean}
  */
 var hasCycle = function(head) {
-    if(!head && !head.next){
+    if(!head || !head.next){
         return false;
     }
 
